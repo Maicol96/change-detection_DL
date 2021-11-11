@@ -17,3 +17,10 @@ La zona de estudio para la cobertura de minería corresponde a un área de 327.1
 La ejecución de todo el proceso se encuentra en su mayoría enmarcado bajo una arquitectura en la nube, haciendo uso de los recursos gratuitos provistos por Google Earth Engine, Google Colab y Google Cloud y toda la suite de herramientas que componente estos entornos y que fueron de utilidad para la automatización, entrenamiento de los modelos, almacenamiento y ejecución de las diferentes etapas que componen la metodología planteada).
 
 ## Organizacion Carpetas
+- **deforestación**: Códigos asociados al proceso de creación de muestras para los modelos, y el proceso de entrenamiento de los modelos bajo el esquema 1: U-Net y FPN para la zona de deforestación.
+- **deforestacion_m2**: Códigos asociados al proceso de creación de muestras para los modelos, y el proceso de entrenamiento de los modelos bajo el esquema 2: U-Net Modificada para la zona de deforestación.
+- **minería**: Códigos asociados al proceso de creación de muestras para los modelos, y el proceso de entrenamiento de los modelos bajo el esquema 1: U-Net y FPN para la zona de minería.
+- **mineria_M2**: Códigos asociados al proceso de creación de muestras para los modelos, y el proceso de entrenamiento de los modelos bajo el esquema 2: U-Net Modificada para la zona de minería.
+- **Validación**: Códigos para el cálculo de las medidas de exactitud para las segmentaciones obtenidas bajo el esquema 1, y los cambios obtenidos bajo los dos esquemas para las dos zonas de estudio.
+
+En el siguiente enlace se encuentran los datos de entrenamiento obtenidos por cada esquema según los bloques obtenidos para cada zona de estudio [Data_Change_Detecion-DL](https://drive.google.com/drive/folders/1o0O-Gturw0D1yuOFpbkMmHFKUXp6rQsR?usp=sharing)
